@@ -9,6 +9,6 @@ export class StudentModel {
   @Field()
   name: string;
 
-  @Field()
-  lastName: string;
+  // @Field()
+  // lastName: string;
 }

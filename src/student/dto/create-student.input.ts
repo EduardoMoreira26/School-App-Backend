@@ -8,7 +8,7 @@ export class CreateStudentInput {
   @Field()
   name: string;
 
-  @MinLength(1)
-  @Field()
-  lastName: string;
+  // @MinLength(1)
+  // @Field()
+  // lastName: string;
 }

@@ -11,6 +11,10 @@ export class UpdateLessonInput {
   @Field()
   name: string;
 
+  @MinLength(1)
+  @Field()
+  teacherName: string;
+
   @IsDateString()
   @Field()
   startDate: string;

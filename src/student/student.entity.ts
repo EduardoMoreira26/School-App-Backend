@@ -12,6 +12,6 @@ export class Student {
   @Column()
   name: string;
 
-  @Column()
-  lastName: string;
+  // @Column()
+  // lastName: string;
 }

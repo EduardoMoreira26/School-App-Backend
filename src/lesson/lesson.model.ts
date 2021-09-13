@@ -12,6 +12,9 @@ export class LessonModel {
   name: string;
 
   @Field()
+  teacherName: string;
+
+  @Field()
   startDate: string;
 
   @Field()

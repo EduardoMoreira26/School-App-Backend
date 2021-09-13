@@ -13,6 +13,9 @@ export class Lesson {
   name: string;
 
   @Column()
+  teacherName: string;
+
+  @Column()
   startDate: string;
 
   @Column()

@@ -35,12 +35,12 @@ export class LessonResolver {
 
   }
 
-  // @Mutation(returns => LessonModel)
-  // deleteLesson(
-  //   @Args('id') id: string
-  // ){
-  //   return this.lessonService.deleteLesson(id)
-  // }
+  @Mutation(returns => LessonModel)
+  deleteLesson(
+    @Args('id') id: string
+  ){
+    return this.lessonService.deleteLesson(id)
+  }
 
   @Mutation(returns => LessonModel)
   assignStudentsToLesson(
